@@ -1,6 +1,6 @@
 
 /* Task 1 */
-let getRand = (min, max) => {
+const getRand = (min, max) => {
   if (min > max) {
     return;
   }
@@ -12,8 +12,7 @@ getRand(2, 5);
 
 /* Task 2 */
 
-let getStringLength = (str, maxLength) => str.length <= maxLength;
-let str = "sgsdfgsdfgsdfgsfg";
-let maxLength = 20;
-
-console.log(getStringLength(str, maxLength));
+const getStringLength = (str, maxLength) => str.length <= maxLength;
+const strParam = 'sgsdfgsdfgsdfgsfg';
+const maxLengthParam = 20;
+getStringLength(strParam, maxLengthParam);
